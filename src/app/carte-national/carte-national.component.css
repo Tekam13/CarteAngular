@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(2, 174, 243);
+    border-radius: 16px;
+}
+.card{
+    display: block;
+    width:760px;
+    height: 460px;
+    background-color: rgb(1, 52, 113);
+    margin-left: 18px;
+    margin-top: 18px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 15px 5px;
+}
+.titre{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 30px;
+    bottom: 15px;
+}
+.imgT{
+    display: flex;
+    width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-style: none;
+}
+.pro{
+    display: flex;
+    margin-top: 38px;
+    margin-left: 15px;
+    font-weight: bold;
+    color: white;
+}
+.slide{
+    display: flex;
+    flex-direction: row;
+}
+.rigth{
+    display: flex;
+    width: 230px;
+    height: 460px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 13px;
+    width: 430px;
+    height: 250px;
+    bottom: 15px;
+}
+fieldset{
+    display: flex;
+    width: 100px;
+}
+.person{
+    display: flex;
+    position: relative;
+    width: 170px;
+    height: 250px;
+    margin-left: 18px;
+    top: 2%;
+}
+.semi{
+    display: flex;
+    position: relative;
+    bottom: 15%;
+    left: 12%;
+    color:  #fff;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25px;
+    color: #fff;
+    font-size: 10px;
+}
+.label1{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 20px;
+    left: 100px;
+    color: #fff;
+    font-size: 15px;    
+}
+span{
+    font-size: 20px;
+}
+.az{
+    display: flex;
+    position: relative;
+    top: 20px;
+    width: 70px;
+    height: 30px;
+}
+.snap {
+    background-color: rgba(lightgreen, 0.4);
+    color: darkgreen;
+    button {
+      box-shadow: lightgreen 3px 3px 7px;
+      color: darkgreen;
+      &:active {
+        box-shadow: lightgreen 0 0 5px;
+      }
+    }
+  }

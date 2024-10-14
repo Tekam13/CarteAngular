@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="card">
+        <div class="title">
+            <div class="titre">
+                <img src="img/seau1.jpg" class="imgT">
+                <div class="court">
+                    <h1 class="pro">REPUBLIQUE DE LA FRANCE</h1>
+                    <p class="semi">CARTE NATIONALE D'IDENTITE/IDENTITY CARD</p>
+                </div>
+                <img src="img/seau2.jpg" class="imgT">
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="slide">
+                <div class="rigth">
+                    <img [src]="Card.imgPerson" class="person">
+                </div>
+                <div class="left">
+                    <div class="label">NOM/SURNAME<span>{{Card.Nom}}</span></div>
+                    <div class="label">PRENOM/ GIVEN NAME <br> <span>{{Card.Prenom}}</span></div>
+                    <div class="label">DATE DE NAISSANCE/ DATE OF BIRTH<br> <span>{{Card.Date}}</span></div>
+                    <div class="label">LIEU DE NAISSANCE/ PLACE OF BIRTH <br> <span>{{Card.Lieu}}</span></div>
+                    <div class="label1">
+                        <div class="sexe">SEXE  <br> <span>{{Card.Sexe}}</span></div>
+                        <div class="height">HEIGHT <br> <span>{{Card.Taille}}</span></div>
+                    </div>
+                    <div class="label">PROFFESSION/ OCCUPATION <br> <span>{{Card.Profession}}</span></div>
+                    <div class="label">SIGNATURE<br> <span>{{Card.Signature}}</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<P>
+    {{snap}}
+    Nombre de snaps: 🫸🏻
+    <button class="az"(click)="Mouch()">Suivant</button>
+</P>
